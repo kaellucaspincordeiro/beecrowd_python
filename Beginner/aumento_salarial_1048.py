@@ -14,7 +14,7 @@ else:
 reajuste = salario * taxa / 100
 novo_salario = salario + reajuste
 
-print(f"Novo salário: {novo_salario:.2f}")
+print(f"Novo salario: {novo_salario:.2f}")
 print(f"Reajuste ganho: {reajuste:.2f}")
 print(f"Em percentual: {taxa} %")
 
