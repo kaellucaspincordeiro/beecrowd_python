@@ -1,14 +1,16 @@
-codigo_produto , quantidade = map(int, input().split())
+codigo_produto, qtd = map(int, input().split())
 
 if codigo_produto == 1:
-    total = quantidade * 4.00
+    preco = 4.00
 elif codigo_produto == 2:
-    total = quantidade * 4.50
+    preco = 4.50
 elif codigo_produto == 3:
-    total = quantidade * 5.00
+    preco = 5.00
 elif codigo_produto == 4:
-    total = quantidade * 2.00
+    preco = 2.00
 else:
-    total = quantidade * 1.50
+    preco = 1.50
 
-print(f"Total: R$ {total:.2f}")
+total_pagar = qtd * preco
+
+print(f"Total: R$ {total_pagar:.2f}")
